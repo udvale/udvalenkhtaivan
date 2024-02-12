@@ -1,14 +1,14 @@
 {
-   "short_name": "React-Portfolio",
-   "name": "React App Portfolio",
-   "icons": [
-     {
-       "src": "bar.PNG",
-       "type": "image/png",
-     }
-   ],
-   "start_url": ".",
-   "display": "standalone",
-   "theme_color": "#000000",
-   "background_color": "#ffffff"
- }
+  "short_name": "React-Portfolio",
+  "name": "React App Portfolio",
+  "icons": [
+    {
+      "src": "bar.PNG",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
