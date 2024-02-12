@@ -1,0 +1,107 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  margin: auto;
+  max-width: 900px;
+  padding-top: 200px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 45px;
+  text-decoration: underline;
+  margin-bottom: 24px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.description {
+  font-size: 17.5px;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.55;
+}
+
+.description2 {
+  font-size: 17px;
+  font-weight: 650;
+  margin-bottom: 24px;
+  text-align: justify;
+  line-height: 1.55;
+}
+
+.techList{
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 47px;
+}
+.techListItem{
+  display: flex;
+  flex-direction: row;
+}
+.textColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.textColumn p{
+  transition: color 0.3s;
+}
+.textColumn p::before{
+  content: "▹    ";
+  position: relative;
+  left: 0;
+}
+.textColumn p:hover{
+  color: var(--color-hover);
+}
+
+.courseLists{
+  margin-bottom: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 65px;
+}
+
+.courseList{
+  display: flex;
+  flex-direction: row;
+}
+
+.courseColumn{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.courseColumn p{
+  transition: color 0.3s;
+}
+
+.courseColumn p::before{
+  content: "▹    ";
+  position:relative;
+  left: 0;
+}
+
+.courseColumn p:hover{
+  color: var(--color-hover);
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+}

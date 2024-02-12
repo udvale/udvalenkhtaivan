@@ -1,0 +1,92 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 170px;
+  margin-left: 11%;
+  margin-right: 11%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 45px;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+
+.history {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.historyItem::before {
+  content: " ";
+  position: relative;
+  display: inline-block;
+  height: 2em; 
+  border-right: 2px solid #000; 
+  margin-right: 3px;
+}
+
+.organization {
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+.historyItemDetails h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.historyItemDetails p {
+  margin-top: 3px;
+  letter-spacing: 0.3px;
+  font-size: 13.5px;
+  font-weight: 450;
+}
+
+.historyItemDetails ul {
+  margin-top: 10px;
+  list-style-position: inside;
+  list-style: none;
+  font-size: 16px;
+  margin-left: 13px;
+  line-height: 1.8;
+}
+
+.historyItemDetails li::before{
+  content: "▹    ";
+  position: relative;
+  left: 2;
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .history {
+    width: 100%;
+    gap: 9px;
+  }
+}

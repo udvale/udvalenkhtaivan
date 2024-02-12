@@ -1,0 +1,113 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  padding: 38px;
+  margin-top: 240px;
+  z-index: 1;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+}
+
+.forCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text-dark);
+}
+
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.secondTitle {
+  font-size: 20px;
+  margin-top: -10px; /* Adjust as needed */
+  text-transform: lowercase;
+  transition: color 0.3s;
+}
+.secondTitle:hover{
+  color: var(--color-hover);
+}
+
+.nameWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstName {
+  font-size: 88px;
+  font-weight: bold;
+}
+
+.lastName {
+  font-size: 96px;
+  font-weight: bold;
+  margin-top: -10px; /* Adjust as needed */
+}
+
+
+.content {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 6px;
+  color: var(--color-text);
+  transition: color 0.5s;
+}
+.content:hover{
+  color: var(--color-hover);
+}
+
+.meImg {
+  margin-left: 30px;
+  width: 24.5%;
+  border-radius: 10%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.meImg:hover {
+  transform: translateY(-10px);
+}
+
+@media screen and (max-width: 500px) {
+  .meImg{
+    width:30%;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+  
+  .secondTitle {
+    font-size: 10px;
+  }
+  
+  .firstName {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .lastName {
+    font-size: 69px;
+  }
+  
+  
+  .content {
+    font-size: 10px;
+  }
+}
+
+
+

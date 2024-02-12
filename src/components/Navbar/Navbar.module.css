@@ -1,0 +1,71 @@
+@import "../../vars.css";
+
+.navbar {
+  position:sticky;
+  display: flex;
+  left:0;
+  width: 100%;
+  padding: 20px 60px;
+  letter-spacing: 0px;
+  background-color: #553f2200;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 750;
+  text-decoration: none;
+  color: var(--color-text);
+  margin-right: 17px;
+  margin-left: 90px;
+  letter-spacing: 0px;
+}
+
+.menu {
+  display: flex;
+  padding-top: 2px;
+}
+
+.menuItems {
+  display: flex;
+  gap: 9px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 17px;
+  letter-spacing: 0px;
+  color: var(--color-text);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menuItems a:hover{
+  color: var(--color-hover);
+}
+
+.links {
+  position: fixed;
+  right: 130px; 
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  gap: 14px;
+}
+
+.icon {
+  width: 22.3px;
+  height: auto;
+}
+
+
+@media screen and (max-width: 800px) {
+  .navbar{
+    padding: 5px 10px;
+  }
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}

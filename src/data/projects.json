@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Task Manager",
+    "imageSrc": "projects/project.png",
+    "description": "Simple to do list to manage tasks in both web application and as an google extension",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "github": "https://github.com/udvale/Task-Manage"
+  },
+  {
+    "title": "Calander Appointment Booker",
+    "imageSrc": "projects/project.png",
+    "description": "A Flutter-based calendar application that provides basic functionality for managing appointments.",
+    "skills": ["Flutter", "FastAPI", "Heroku"],
+    "github": "https://github.com/udvale/flutter_calendar"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "projects/project.png",
+    "description": "Personal Porfolio Website built using React and CSS. Showcasing projects, skills, and contact information.",
+    "skills": ["React", "CSS", "Figma"],
+    "github": "https://github.com/udvale/udvale"
+  }
+]

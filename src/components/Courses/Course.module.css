@@ -1,0 +1,34 @@
+.container {
+   color: var(--color-text);
+   margin-top: 170px;
+   margin-left: 10%;
+   margin-right: 10%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+.title {
+   color: var(--color-text);
+   font-size: 45px;
+   margin-bottom: 12px;
+ }
+
+ .techList {
+   margin-bottom: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px;
+ }
+ 
+ .techListItem {
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .textColumn {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+ }
