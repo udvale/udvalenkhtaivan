@@ -1,16 +1,14 @@
 {
-  "homepage": "https://udvale.com",
   "name": "portfolio",
   "private": true,
-  "version": "0.0.1",
-  "type": "module",
+  "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
     "@fontsource/outfit": "^5.0.8",
@@ -40,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://udvale.com"
 }
