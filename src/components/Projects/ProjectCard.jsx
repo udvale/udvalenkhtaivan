@@ -1,10 +1,9 @@
 import React from "react";
 
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, description, skills, github },
+  project: {title, description, skills, github},
 }) => {
   return (
     <div className={styles.container}>
@@ -21,7 +20,11 @@ export const ProjectCard = ({
       </ul>
       <div className={styles.links}>
         <a href={github} className={styles.link} target="_blank">
-        <img className={styles.icon} src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+          <img
+            className={styles.icon}
+            src={"/pics/githubIcon.png"}
+            alt="Github icon"
+          />
         </a>
       </div>
     </div>

@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from "react";
 
 import styles from "./Home.module.css";
-import { getImageUrl } from "../../utils";
 
 export const Home = () => {
   const [index, setIndex] = useState(0);
-  const texts = [ "Nice to meet you!",
-                  "My name is Udval and I'm from Mongolia", 
-                  "I'm a 3rd year student at Dickinson College",     
-                  "Software and Coffee enthusiast", 
-                  "Fan of mint chocolate", 
-                  "I play sudoku for stress relieve.",];
+  const texts = [
+    "Nice to meet you!",
+    "My name is Udval and I'm from Mongolia",
+    "I'm a 3rd year student at Dickinson College",
+    "Software and Coffee enthusiast",
+    "Fan of mint chocolate",
+    "I play sudoku for stress relieve.",
+  ];
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -40,11 +41,7 @@ export const Home = () => {
           ))}
         </div>
       </div>
-          <img
-            src={getImageUrl("home/me.JPEG")}
-            alt="image of me"
-            className={styles.meImg}
-          />
+      <img src={"/pics/me.JPEG"} alt="Udval" className={styles.meImg} />
     </section>
   );
 };
