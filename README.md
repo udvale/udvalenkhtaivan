@@ -1,3 +1,8 @@
-## Hi There!
-- My name is Udval, currently a junior at Dickinson College.
-- 
+# Portfolio Website Made with React.JS and CSS. 
+https://udvale.netlify.app
+
+# Color Codes
+| Color | Hex Code |
+| :---- | :----: |
+| Beige | 0000 | 
+| Green | 0000 | 
