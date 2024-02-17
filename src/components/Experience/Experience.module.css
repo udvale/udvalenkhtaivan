@@ -25,7 +25,6 @@
 
 
 .history {
-  width: 95%;
   display: flex;
   flex-direction: column;
 }
@@ -50,6 +49,11 @@
 .organization {
   font-weight: bold;
   letter-spacing: 0.7px;
+  transition: color 0.3s;
+}
+
+.organization:hover{
+  color: var(--color-hover);
 }
 .historyItemDetails h3 {
   font-size: 20px;
@@ -72,13 +76,18 @@
   line-height: 1.8;
 }
 
+.historyItemDetails ul li {
+  text-indent: -1.5em; 
+  padding-left: 1.5em; 
+}
+
 .historyItemDetails li::before{
   content: "▹    ";
   position: relative;
   left: 2;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .content {
     flex-direction: column;
     align-items: flex-start;
@@ -88,5 +97,9 @@
   .history {
     width: 100%;
     gap: 9px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 14.5px;
   }
 }

@@ -6,17 +6,17 @@ export const Home = () => {
   const [index, setIndex] = useState(0);
   const texts = [
     "Nice to meet you!",
-    "My name is Udval and I'm from Mongolia",
-    "I'm a 3rd year student at Dickinson College",
-    "Software and Coffee enthusiast",
-    "Fan of mint chocolate",
-    "I play sudoku for stress relieve.",
+    "I'm a 3rd year student at Dickinson College.",
+    "Passionate about software development and management",
+    "and a fanatic for good coffee and tea.",
+    "I'm also an unabashed mint chocolate supporter",
+    "who playes sudoku for stress relief.",
   ];
 
   useEffect(() => {
     const id = setInterval(() => {
       setIndex((prev) => (prev + 1) % texts.length);
-    }, 3000);
+    }, 4000);
     return () => clearInterval(id);
   }, [texts.length]);
 
@@ -41,7 +41,7 @@ export const Home = () => {
           ))}
         </div>
       </div>
-      <img src={"/pics/me.JPEG"} alt="Udval" className={styles.meImg} />
+      <img src={"/pics/me2.jpg"} alt="Udval" className={styles.meImg} />
     </section>
   );
 };

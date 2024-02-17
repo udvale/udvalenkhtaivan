@@ -34,11 +34,11 @@
 }
 
 .description2 {
-  font-size: 17px;
+  font-size: 16.5px;
   font-weight: 650;
   margin-bottom: 24px;
   text-align: justify;
-  line-height: 1.55;
+  line-height: 1.45;
 }
 
 .techList{
@@ -69,15 +69,15 @@
 }
 
 .courseLists{
-  margin-bottom: 36px;
+  margin-bottom: 35px;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 65px;
+  margin-left: 31px;
 }
 
 .courseList{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: column; */
 }
 
 .courseColumn{
@@ -100,8 +100,10 @@
   color: var(--color-hover);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .container {
-    flex-direction: column-reverse;
+    max-width: 450px;
+    padding-top: 100px;
   }
+  
 }

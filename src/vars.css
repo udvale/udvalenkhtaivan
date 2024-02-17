@@ -4,5 +4,6 @@
   --color-text-dark: #1a1511;
   --color-bg: #553f2282;
   --color-project: #C3B09B;
-  --color-hover: rgb(117, 113, 79);
+  /* --color-hover: rgb(117, 113, 79); */
+  --color-hover: #155c15c3;
 }
