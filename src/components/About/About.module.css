@@ -99,7 +99,7 @@
   color: var(--color-hover);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .container {
     max-width: 450px;
     padding-top: 100px;
@@ -112,6 +112,8 @@
   }
   .textColumn{
     font-size: 14px;
+    flex-direction: column;
+    position:static;
   }
   .courseColumn{
     font-size: 14px;
