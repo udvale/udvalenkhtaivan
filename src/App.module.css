@@ -6,9 +6,9 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .App {
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 20px;
   }
 }

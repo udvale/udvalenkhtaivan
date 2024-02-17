@@ -77,7 +77,6 @@
 
 .courseList{
   display: flex;
-  /* flex-direction: column; */
 }
 
 .courseColumn{
@@ -104,6 +103,18 @@
   .container {
     max-width: 450px;
     padding-top: 100px;
+  }
+  .description{
+    font-size: 15px;
+  }
+  .description2{
+    font-size: 14px;
+  }
+  .textColumn{
+    font-size: 14px;
+  }
+  .courseColumn{
+    font-size: 14px;
   }
   
 }
