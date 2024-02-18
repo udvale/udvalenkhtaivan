@@ -19,5 +19,12 @@
     "description": "Personal Porfolio Website built using React and CSS. Showcasing projects, skills, and contact information.",
     "skills": ["React", "CSS", "Figma"],
     "github": "https://github.com/udvale/udvale"
+  },
+  {
+    "title": "Web Scraping Analysis",
+    "imageSrc": "projects/project.png",
+    "description": "Scrape job postings from Indeed.com and perform data analysis to extract insights about the job market for computer science field.",
+    "skills": ["Selenium", "Numpy", "Pandas", "Jupyter"],
+    "github": "https://github.com/udvale/Web-Scraping-Project"
   }
 ]
