@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./About.module.css";
 
 export const About = () => {
@@ -44,17 +43,18 @@ export const About = () => {
         <ul className={styles.courseLists}>
           <li className={styles.courseList}>
             <div className={styles.courseColumn}>
-              <p>Principles of Object-Oriented-Programming </p>
               <p>Data Structures </p>
               <p>Analysis of Algorithm </p>
               <p>Computer Networks </p>
-              <p>Computing Abstractions </p>
               <p>Database Systems </p>
               <p>Open Source Software Development </p>
               <p>Database Systems and Management </p>
               <p>Discreate Mathematics </p>
-              <p>Linear Algebra</p>
               <p>Numerical Analysis</p>
+              <p>2023 Web Development Bootcamp</p>
+              <p>
+                IBM IT Project Manager Program <span>/in progress/</span>
+              </p>
             </div>
           </li>
           {/* <li className={styles.courseList}>

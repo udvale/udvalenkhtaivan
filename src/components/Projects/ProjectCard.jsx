@@ -1,6 +1,6 @@
 import React from "react";
-
 import styles from "./ProjectCard.module.css";
+// import {ProjectCarousel} from "./ProjectCarousel";
 
 export const ProjectCard = ({
   project: {title, description, skills, github},

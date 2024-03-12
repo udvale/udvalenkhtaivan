@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Experience />
+      {/* <Experience /> */}
       <Projects />
       <Footer />
     </div>
